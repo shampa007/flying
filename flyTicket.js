@@ -54,6 +54,11 @@ function purchaseTicket(type , isIncrease ){
     document.getElementById('total-count').innerText = totalPayment;
 }
 }
+
+function showAlert(){
+    const myText = 'Thank you for buying ticket'
+    alert(myText);
+}
 //     document.getElementById(type + '-count').value = ticketTotal;
 
 //     const subTotal = document.getElementById('subtotal-count').innerText;
